@@ -1,0 +1,16 @@
+/*
+ * This is a testcase for CSS
+ */
+
+#id {
+  background-color: #212121;
+}
+
+.class {
+  color: blue;
+  font-size: 12px;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+}
