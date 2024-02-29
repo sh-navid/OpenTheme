@@ -1,9 +1,9 @@
 /**
  * This is a testcase for Javascript
+ * [comment, punctuation.definition.comment]
  */
 function main() {
-  // Main function
-
+  // [variable]
   var number = 12;
   console.log(number);
 }

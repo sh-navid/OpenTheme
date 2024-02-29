@@ -2,11 +2,11 @@
 
 /**
  * This is a testcase for Kotlin
+ * [comment, punctuation.definition.comment]
  */
 function main()
 {
-    // Main function
-
+    # [variable]
     $number = 12;
     echo($number);
 }
