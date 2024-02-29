@@ -1,6 +1,6 @@
-/*
- * This is a testcase for CSS
- * [comment, punctuation.definition.comment]
+/**
+ * [comment]
+ * [punctuation.definition.comment]
  */
 
 #id {
@@ -10,7 +10,7 @@
 
 .class {
   color: blue;
-  /* [keyword]> px */
+  /* [keyword] > px */
   font-size: 12px;
 }
 

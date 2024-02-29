@@ -1,19 +1,24 @@
 /**
- * This is a testcase for C++
- * [comment, punctuation.definition.comment]
+ * [comment]
+ * [punctuation.definition.comment]
  */
 #include <iostream>
+
+class Main{
+
+};
+
+// [storage.type]> int
 int main()
 {
     // [variable]> number
     // [storage.type]> int
     int number = 12;
-    std::cout << number;
 
     // [constant.other.placeholder]
     printf("%d\n", number);
 
-    // [keyword]> for, return, <<, =, ...
+    // [keyword] > for, =, <, ++
     for (int i = 0; i < 10; i++)
     {
         std::cout << i;

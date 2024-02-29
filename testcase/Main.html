@@ -6,25 +6,35 @@
     <title>Document</title>
   </head>
   <body>
+    <!-- [comment] -->
+    <!-- [punctuation.definition.comment] -->
     <script>
       /**
-       * This is a testcase for Javascript
-       * [comment, punctuation.definition.comment]
+       * [comment]
+       * [punctuation.definition.comment]
        */
-      const main = () => {
-        // [variable]> number
-        // [storage.type]> var, const, let
-        var number = 12;
-        console.log(number);
 
-        // [keyword]> for
-        for (let i = 0; i < 10; i++) {
-          console.log(i);
+      // [comment]
+      // [punctuation.definition.comment]
+
+      // [storage.type]> class
+      class Main {
+        main() {
+          // [variable]> number
+          // [storage.type]> var
+          var number = 12;
+
+          // [constant.other.placeholder]
+          console.log(`Test placeholder ${number}`);
+
+          // [keyword]> for, =, <, ++
+          for (let i = 0; i < 10; i++) {
+            console.log(i);
+          }
         }
-      };
+      }
 
-      main();
+      new Main().main();
     </script>
-    <!-- HTML Comment -->
   </body>
 </html>

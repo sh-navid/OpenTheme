@@ -1,21 +1,26 @@
 """
-    This is a testcase for Kotlin
-    [comment, punctuation.definition.comment]> Seems not working for python cause multiline comment of python is a string !!!???
+    [comment]
+    [punctuation.definition.comment]
 """
+# [comment]
+# [punctuation.definition.comment]
 
-# [storage.type]> def
-def main():
-    # [variable]> Seems not working in python !?
-    number = 12
-    print(number)
+# [storage.type] > class
+class Main:
+    @staticmethod
+    # [storage.type] > def
+    def main():
+        # [variable] > number
+        number = 12
 
-    # [keyword]> for
-    for i in range(1, 10):
-        print(i)
+        # [constant.other.placeholder]
+        print("Test placeholder {number}".format(number=number))
+        print(f"Test placeholder {number}")
 
-    # [keyword]> pass
-    pass
+        # [keyword]> for, in
+        for i in range(1, 10):
+            print(i)
 
 
 if __name__ == "__main__":
-    main()
+    Main.main()
