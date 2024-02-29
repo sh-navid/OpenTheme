@@ -4,7 +4,8 @@
  */
 
 #id {
-  background-color: #212121;
+  /*[constant.other.color]*/
+  background-color: #212121; 
 }
 
 .class {
