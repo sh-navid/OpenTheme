@@ -1,0 +1,40 @@
+{
+  "name": "Open Theme",
+  "colors": {
+    "editor.foreground": "#ffffff",
+    "editor.background": "#212121",
+    "sideBarTitle.foreground": "#98ff43",
+    "activityBarBadge.background": "#dd6520"
+  },
+  "tokenColors": [
+    {
+      "name": "Comment",
+      "scope": ["comment"],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#ffd900"
+      }
+    },
+    {
+      "hr": "---------------------------------"
+    },
+    {
+      "name": "Comment Punctuation",
+      "scope": ["punctuation.definition.comment"],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#e0446b"
+      }
+    },
+    {
+      "hr": "---------------------------------"
+    },
+    {
+      "name": "Variables",
+      "scope": ["variable", "string constant.other.placeholder"],
+      "settings": {
+        "foreground": "#71f1a6"
+      }
+    }
+  ]
+}
