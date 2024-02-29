@@ -1,0 +1,21 @@
+{
+  "name": "open-theme",
+  "displayName": "Open Theme",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.86.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Open Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Open Theme-color-theme.json"
+      }
+    ]
+  }
+}
