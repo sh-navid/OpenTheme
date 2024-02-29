@@ -8,33 +8,36 @@
   },
   "tokenColors": [
     {
-      "name": "Comment",
-      "scope": ["comment"],
+      "scope": "comment",
       "settings": {
         "fontStyle": "italic",
         "foreground": "#ffd900"
       }
     },
     {
-      "hr": "---------------------------------"
-    },
-    {
-      "name": "Comment Punctuation",
-      "scope": ["punctuation.definition.comment"],
+      "scope": "punctuation.definition.comment",
       "settings": {
         "fontStyle": "italic",
         "foreground": "#e0446b"
       }
     },
     {
-      "hr": "---------------------------------"
-    },
-    {
-      "name": "Variables",
-      "scope": ["variable", "string constant.other.placeholder"],
+      "scope": "variable",
       "settings": {
         "foreground": "#71f1a6"
       }
-    }
+    },
+    {
+      "scope": "string constant.other.placeholder",
+      "settings": {
+        "foreground": "#e3f15c"
+      }
+    },
+    {
+      "scope": "constant.other.color",
+      "settings": {
+        "foreground": "#b1b1b1"
+      }
+    },
   ]
 }
