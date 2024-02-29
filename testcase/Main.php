@@ -6,6 +6,8 @@
 function main()
 {
     // Main function
+
+    $number = 12;
 }
 
 main();

@@ -5,5 +5,7 @@ int main()
 {
     // Main function
 
+    int number = 12;
+
     return 0;
 }
