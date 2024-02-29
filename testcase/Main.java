@@ -6,5 +6,6 @@ public class Main {
         // Main function
 
         int number = 12;
+        System.out.println(number);
     }
 }

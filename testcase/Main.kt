@@ -5,4 +5,5 @@ fun main(){
     // Main function
 
     var number = 12
+    println(number)
 }

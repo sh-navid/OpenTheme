@@ -5,6 +5,7 @@ def main():
     # Main function
     
     number=12
+    print(number)
 
     pass
 

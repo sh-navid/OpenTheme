@@ -5,6 +5,7 @@ function main() {
   // Main function
 
   var number = 12;
+  console.log(number);
 }
 
 main();

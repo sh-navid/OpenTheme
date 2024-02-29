@@ -8,6 +8,7 @@ function main()
     // Main function
 
     $number = 12;
+    echo($number);
 }
 
 main();
