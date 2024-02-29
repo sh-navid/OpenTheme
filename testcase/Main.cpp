@@ -5,12 +5,19 @@
 #include <iostream>
 int main()
 {
-    // [variable]
+    // [variable]> number
+    // [storage.type]> int
     int number = 12;
-    std::cout<<number;
+    std::cout << number;
 
     // [constant.other.placeholder]
     printf("%d\n", number);
+
+    // [keyword]> for, return, <<, =, ...
+    for (int i = 0; i < 10; i++)
+    {
+        std::cout << i;
+    }
 
     return 0;
 }

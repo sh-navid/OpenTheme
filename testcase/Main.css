@@ -4,12 +4,13 @@
  */
 
 #id {
-  /*[constant.other.color]*/
-  background-color: #212121; 
+  /* [constant.other.color] */
+  background-color: #212121;
 }
 
 .class {
   color: blue;
+  /* [keyword]> px */
   font-size: 12px;
 }
 
