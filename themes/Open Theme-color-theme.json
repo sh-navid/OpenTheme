@@ -11,14 +11,14 @@
       "scope": "comment",
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#ffd900"
+        "foreground": "#676767"
       }
     },
     {
       "scope": "punctuation.definition.comment",
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#e0446b"
+        "foreground": "#676767"
       }
     },
     {
@@ -39,5 +39,23 @@
         "foreground": "#b1b1b1"
       }
     },
+    {
+      "scope": "keyword",
+      "settings": {
+        "foreground": "#ffee00"
+      }
+    },
+    {
+      "scope": "storage.type",
+      "settings": {
+        "foreground": "#c460dd"
+      }
+    },
+    {
+      "scope": "storage.modifier",
+      "settings": {
+        "foreground": "#eea56a"
+      }
+    }
   ]
 }
